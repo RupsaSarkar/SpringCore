@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/context/ 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+   
+    <beans>
+    <bean id="Questions" class="Questions">
+    <property name="questionId" value="25"></property>
+    <property name="question" value="Why Should we hire you?"></property>
+	<property name="answers">
+	<set>
+	<value>"Because I have good programming skills"</value>
+	<value>"Because I have good logical skills"</value>
+	<value>"Because I can be an asset for your company"</value>
+	</set>
+	</property>    
+    </bean>
+    </beans>
+    </beans>
